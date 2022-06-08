@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <!-- LINKING   PRISM FOR COE HIGHLIGHTING -->
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    
+    <!-- TITLE  -->
+
+    <title>Js Cheatsheet</title>
+
+</head>
+
+
+<body>
+    <!-- NAVBAR  -->
+
+    <div class="navbar">
+        <div class="logo"><img src="./copy.png" alt=""></div>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Language &#8595;
+
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html">HTML cheatsheet</a>
+                <a href="js.html">JS cheatsheet</a>
+                <a href="css.html">CSS cheatsheet</a>
+            </div>
+        </div>
+        <div class="searchBox" onkeypress="search()">
+            <input type="text" placeholder="Search Here" id="searchInput" onkeypress="search()">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1> JavaScript Basics</h1>
+        <!-- Download Button  -->
+        <a href="https://drive.google.com/file/d/1-lQ8ThB2rjNQKYqbCTD_MPStCffYGLbx/view?usp=sharing" target="_blank">   <button class="btn">Download Pdf</button></a>
+
+        <ol>
+            <!-- LIST ITEMS -->
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>On Page Script
+                </h2>
+                <p class="heading-intro">  Adding internal JavaScript to HTML</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-html"><code class="code">&ltscript type="text/javascript"&gt //JS code class="code" goes here &lt/script&gt</code class="code"></pre>
+            </li>
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>External JS File
+                </h2>
+                <p class="heading-intro"> Adding external JavaScript to HTML</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-html"><code class="code">&ltscript src="filename.js"&gt&lt/script&gt</code class="code"></pre>
+            </li>
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <!-- Heading  -->
+                <h2>Functions
+                </h2>
+                <!-- PARAGRAPH  -->
+                <p class="heading-intro">
+                    JavaScript Function syntax</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-js"><code class="code">function nameOfFunction(){
+// function body 
+}</code class="code"></pre>
+            </li>
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <!-- Heading  -->
+                <h2>DOM Element
+
+                </h2>
+                <!-- PARAGRAPH  -->
+                <p class="heading-intro">
+                    Changing content of a DOM Element</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-js"><code class="code">document.getElementById("elementID").innerHTML = "Hello World!";</code class="code"></pre>
+            </li>
+
+            <li>
+                <h1>Creating Elements</h1>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <!-- Heading  -->
+                <h2>createElement
+                </h2>
+                <!-- PARAGRAPH  -->
+                <p class="heading-intro">
+                    Create a new element</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-js"><code class="code">document.createElement('div')</code class="code"></pre>
+                <!-- ________________________________________________ -->
+
+
+                <h2>createTextNode
+                </h2>
+                <!-- PARAGRAPH  -->
+                <p class="heading-intro">
+                    Create a new text node</p>
+                <!-- code class="code" BOX  -->
+                <pre class="language-js"><code class="code">document.createTextNode('some text here')</code class="code"></pre>
+                
+            </li>
+            <li>
+               <h1>Query/Get Elements
+            </h1>
+            <p class="heading-intro">
+                The browser creates a DOM (Document Object Model) whenever a web page is loaded, and with
+the help of HTML DOM, one can access and modify all the elements of the HTML document</p>
+<!-- Heading  -->
+                <h2>
+                    querySelector
+                </h2>
+                <!-- PARAGRAPH  -->
+                <p class="heading-intro">
+                    Selector to select first matching element</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-js"><code class="code">document.querySelector('css-selectors')</code class="code"></pre>
+            </li>
+
+
+
+            
+          
+
+            
+
+
+
+
+
+
+
+
+
+
+        </ol>
+        
+    </div>
+    
+
+    <footer>
+        <p class="text-center">Copyright @2022 | Designed With Prism.js <a href="#">| By-Prashant Chawla</a></p>
+
+    </footer>
+
+    
+    <!-- <script src="script.js" defer></script>          defer means that the script will be executed only after the whole document has been parsed -->
+    <script src="script.js" ></script> 
+</body>
+
+</html>

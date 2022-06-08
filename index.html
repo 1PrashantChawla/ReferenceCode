@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <!-- LINKING   PRISM FOR COE HIGHLIGHTING -->
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+     
+    
+    <!-- TITLE  -->
+
+    <title>HTML Cheatsheet</title>
+</head>
+
+
+<body>
+    <!-- NAVBAR  -->
+
+    <div class="navbar">
+        <div class="logo"><img src="./copy.png" alt=""></div>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Language &#8595;
+
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html">HTML cheatsheet</a>
+                <a href="js.html">JS cheatsheet</a>
+                <a href="css.html">CSS cheatsheet</a>
+            </div>
+        </div>
+        <div class="searchBox">
+            <input type="text" placeholder="Search Here" id="searchInput" onkeypress="search()" on>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1> HTML Basics</h1>
+
+
+        <ol>
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>HTML Boiler Plate</h2>
+                <p class="heading-intro"> The starting code class="code" or the boiler plate:</p>
+                <!-- code class="code" BOX  -->
+                <pre class="language-html"><code class="code">&lt!DOCTYPE html&gt
+&lthtml lang="en"&gt
+&lthead&gt
+    &ltmeta charset="UTF-8"&gt
+    &ltmeta http-equiv="X-UA-Compatible" content="IE=edge"&gt
+    &ltmeta name="viewport" content="width=device-width, initial-scale=1&gt0"&gt
+    &lttitle&gtDocument&lt/title&gt
+&lt/head&gt
+&ltbody&gt
+    
+&lt/body&gt
+&lt/html&gt</code class="code"></pre>
+            </li>
+            
+            
+
+
+            <li>
+                <h2>Headings:
+                </h2>
+                <p class="heading-intro"> There are six headings available in HTML, H1 is the largest among all, and H6
+                    is the smallest.</p>
+                    <!-- code class="code" BOX  -->
+                <pre class="language-html"><code class="code">&lth1&gt I am h1 &lt/h1&gt</code class="code"></pre>
+                <pre class="language-html"><code class="code">&lth2&gt I am h2 &lt/h2&gt</code class="code"></pre>
+                <pre class="language-html"><code class="code">&lth3&gt I am h3 &lt/h3&gt</code class="code"></pre>
+                <pre class="language-html"><code class="code">&lth4&gt I am h4 &lt/h4&gt</code class="code"></pre>
+                <pre class="language-html"><code class="code">&lth5&gt I am h5 &lt/h5&gt</code class="code"></pre>
+                <pre class="language-html"><code class="code">&lth6&gt I am h6 &lt/h6&gt</code class="code"></pre>
+                <!-- //HERE WHILE USING PRISM.JS WE HAVE TO TAKE CARE OF SPACES WHILE USING IT -->
+            </li>
+
+
+            <li>
+                <h2>Container Tag</h2>
+                <p class="heading-intro"><span class="bold">Container</span>
+                    tags are the tags that contain some data such as text, image, etc. There are several container tags
+                    in HTML.</p>
+                <h3>Div</h3>
+                <p class="heading-intro"><span class="bold"> &ltdiv&gt tag</span>
+                    div tag or division tag is used to make blocks or divisions in the document.</p>
+                <h3>
+                    &ltdiv&gt tag
+                </h3>
+                <!-- <pre class="language-html"> THIS CLASS HAS BEEN TAKEN FROM PRISM DOCUMENTATION -->
+                <!-- code class="code" BOX  -->
+                <pre class="language-html"><code class="code">&ltdiv&gt This is div block &lt/div&gt</code class="code"></pre>
+            </li>
+
+
+
+
+
+
+
+
+
+
+        </ol>
+
+    </div>
+
+
+    <footer>
+        <p class="text-center">Copyright @2022 | Designed With Prism.js <a href="#">| By-Prashant Chawla</a></p>
+
+    </footer>
+
+
+    <!-- <script src="script.js" defer></script>          defer means that the script will be executed only after the whole document has been parsed -->
+    <script src="script.js" ></script>
+</body>
+
+</html>
