@@ -236,14 +236,14 @@ footer a{
   }
   .container li{
       margin: 1px 20px ;
-      width: 325px;
+      width: 350px;
       
       
       align-items: center;
       
   }
   .container .code-toolbar{
-     font-size: 7px;
+     font-size: 8px;
 
   }
   footer{
@@ -252,16 +252,17 @@ footer a{
       height: 15px;
   }
   .container li h2{
-      font-size: 10px;
+      font-size: 11px;
   }
   .container li h1{
-      font-size: 12px;
+      font-size: 13px;
   }
   .heading-intro{
     font-size: 7px;
 
   }
  }
+
 
 
 
