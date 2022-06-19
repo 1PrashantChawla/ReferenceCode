@@ -38,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-
+  
   }
   .searchBox{
      
@@ -135,8 +135,9 @@ body{
 }
 .container{
     /* background: red; */
-    max-width: 70vw;
-    min-width: 50vw;
+ max-width: 70%;
+ min-width: 50%;
+
     margin: auto;
     padding: 20px;
     display: flex;
@@ -214,6 +215,52 @@ footer a{
     padding-top: 1px!important;
     padding-bottom: 1px!important;
 }
+@media (min-width: 350px) and (max-width:610px) { 
+
+#searchInput{
+    padding: 2px;
+    outline: none;
+    border-radius: 10px;
+
+}
+
+
+.navbar{
+    justify-content: left;
+    
+}
+.dropdown-content a {
+  font-size: 10px;
+  }
+  .container li{
+      margin: 1px 20px ;
+      width: 325px;
+      
+      
+      align-items: center;
+      
+  }
+  .container .code-toolbar{
+     font-size: 7px;
+
+  }
+  footer{
+      font-size: 5px;
+      position: fixed;
+      height: 15px;
+  }
+  .container li h2{
+      font-size: 10px;
+  }
+  .container li h1{
+      font-size: 12px;
+  }
+  .heading-intro{
+    font-size: 7px;
+
+  }
+ }
+
 
 
 
