@@ -174,9 +174,11 @@ color: black;
 
 }
 .container h2{
-    font-family: 'Irish Grover', cursive;
+     font-family: 'Irish Grover', cursive;
    color: rgb(0, 255, 0);
     font-weight: lighter;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    letter-spacing: 1px;
     
    
 }
