@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <!-- LINKING   PRISM FOR COE HIGHLIGHTING -->
+    <link rel="stylesheet" href="prismlinux.css">
+    <script src="prismlinux.js"></script>
+    <link rel="stylesheet" href="prism.css">
+    <script src="prism.js"></script>
+    
+    <!-- TITLE  -->
+
+    <title>Linux Cheatsheet</title>
+
+</head>
+
+
+<body>
+    <!-- NAVBAR  -->
+
+    <div class="navbar">
+        <div class="logo"><img src="./copy.png" alt=""></div>
+        <div class="dropdown">
+            <button class="dropbtn">
+                Language &#8595;
+
+            </button>
+            <div class="dropdown-content">
+                <a href="index.html">HTML cheatsheet</a>
+                <a href="js.html">JS cheatsheet</a>
+                <a href="css.html">CSS cheatsheet</a>
+                <a href="linux.html">Linux Commands</a>
+            </div>
+        </div>
+        <div class="searchBox" onkeypress="search()">
+            <input type="text" placeholder="Search Here" id="searchInput" onkeypress="search()">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <h1> Linux Commands</h1>
+      
+
+
+        <ol>
+            <!-- LIST ITEMS -->
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>ls Command
+                </h2>
+                <p class="heading-intro">Used to open all the files in the directory.</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-git"><code class="code">ls</code class="code"></pre>
+            </li>
+
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>pwd Command
+                </h2>
+                <p class="heading-intro">Used to show the current working direcory(print working directory)</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-git"><code class="code">pwd</code class="code"></pre>
+            </li>
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>man Command		 
+                </h2>
+                <p class="heading-intro">Shows the manual of any command available.</p>
+                <!-- code class="code" BOX  -->
+               
+                <pre class="language-ps"><code class="code">cd "pathname"</code class="code"></pre>
+                    <p class="heading-intro">EG-This will show you all the files and folders on Desktop.</p>
+                    <pre class="language-js"><code class="code">cd "C:\Users\Dell\Desktop"</code class="code"></pre>
+            </li>
+
+            <li>
+                <!-- SHIFT +TAB DABA KE code class="code" KI INDENT KO THEEK KARNA PADEGA PRISM.JS KI WAJA SE  -->
+                <h2>cd Command
+                </h2>
+                <p class="heading-intro">Used to change the directory from one folder to another</p>
+                <!-- code class="code" BOX  -->
+                <pre class="language-git"><code class="code">cd "pathname"</code class="code"></pre>
+                    <p class="heading-intro">EG-This will show you all the files and folders on Desktop</p>
+                    <pre class="language-js"><code class="code">cd "C:\Users\Dell\Desktop"</code class="code"></pre>
+            </li>
+
+
+
+
+
+
+
+
+
+
+
+        </ol>
+        
+    </div>
+    
+
+    <footer>
+        <p class="text-center">Copyright @2022 | Designed With Prism.js <a href="#">| By-Prashant Chawla</a></p>
+
+    </footer>
+
+    
+    <!-- <script src="script.js" defer></script>          defer means that the script will be executed only after the whole document has been parsed -->
+    <script src="script.js" ></script> 
+</body>
+
+</html>
