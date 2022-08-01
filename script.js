@@ -5,6 +5,7 @@ const search = ()=>{
   var filter =  document.getElementById('searchInput').value.toLowerCase();
   var list= document.getElementsByTagName('li')
   var headings= document.getElementsByTagName('h2')
+  var headingIntro=document.getElementsByClassName('heading-intro')
   var codebox= document.querySelectorAll('.code')
 
 
@@ -12,19 +13,22 @@ const search = ()=>{
 for (let index = 0; index < headings.length; index++) {
   // INNER text of headings
   let innerTextHeadings=headings[index].innerText;
+  let heading_INTRODUCTION=headingIntro[index].innerText;
+
 
  
 
 // Checking if the searched string is present in the headings.innerText
 
-  if (innerTextHeadings.toLowerCase().indexOf(filter)>-1) {
+  if (innerTextHeadings.toLowerCase().indexOf(filter)>-1 || heading_INTRODUCTION.toLowerCase().indexOf(filter)>-1) {
       //When  string is present the +ve index is 
-    list[index].style.display="";
+      list[index].style.display="none";
    
 
   } else {
     // If string is not present then the index is -1
       list[index].style.display="none";
+     
       
   }
  }
