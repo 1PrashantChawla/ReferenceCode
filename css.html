@@ -21,10 +21,11 @@
     <!-- LINKING   PRISM FOR COE HIGHLIGHTING -->
     <link rel="stylesheet" href="prism.css">
     <script src="prism.js"></script>
+     
     
     <!-- TITLE  -->
 
-    <title>CSS Cheatsheet</title>
+    <title>Css Cheatsheet</title>
 </head>
 
 
@@ -32,75 +33,70 @@
     <!-- NAVBAR  -->
 
     <div class="navbar">
-        <div class="logo"><img src="./copy.png"  alt=""></div>
+        <div class="logo"><img src="./copy.png" alt=""></div>
         <div class="dropdown">
             <button class="dropbtn">
                 Language &#8595;
 
             </button>
             <div class="dropdown-content">
-                <div class="dropdown-content">
-                    <a href="index.html">HTML cheatsheet</a>
-                    <a href="js.html">JS cheatsheet</a>
-                    <a href="css.html">CSS cheatsheet</a>
-                    <a href="linux.html">Linux Commands</a>
-                </div>
+                <a href="index.html">HTML cheatsheet</a>
+                <a href="js.html">JS cheatsheet</a>
+                <a href="css.html">CSS cheatsheet</a>
+                <a href="linux.html">Linux Commands</a>
+            </div>
         </div>
         <div class="searchBox">
-            <input type="text" placeholder="Search Here" id="searchInput" onkeydown="search()">
+            <input type="text" placeholder="Search Here" id="searchInput" onkeydown="search()" on>
         </div>
     </div>
 
 
     <div class="container">
-        <h1> CSS Basics</h1>
-       
-          <!-- button  download -->
-       
+        <h1 class="category"> Css Basics</h1>
+        
+<ol>
 
 
-        <ol>
+ 
+    <li>
+        <h1>Fonts</h1>
+        <p class="heading-intro">There are many properties related to the font, such as the face, weight, style, etc. These properties allow you to change the style or complete look of your text.
+        </p>
+        
+        <h2>Font Family</h2>
+
+        <!-- code class="code" BOX  -->
+        <pre class="language-css"><code class="code">font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</code class="code"></pre>
 
 
-         
-            <li>
-                <h1>Fonts</h1>
-                <p class="heading-intro">There are many properties related to the font, such as the face, weight, style, etc. These properties allow you to change the style or complete look of your text.
-                </p>
-                
-                <h2>Font Family</h2>
-
-                <!-- code class="code" BOX  -->
-                <pre class="language-css"><code class="code">font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;</code class="code"></pre>
+        <h2>Font-Style</h2>
+        <!-- code class="code" BOX  -->
+        <pre class="language-css"><code class="code">font-style: italic;</code class="code"></pre>
 
 
-                <h2>Font-Style</h2>
-                <!-- code class="code" BOX  -->
-                <pre class="language-css"><code class="code">font-style: italic;</code class="code"></pre>
+        <h2>Font-Variant</h2>
+        <!-- code class="code" BOX  -->
+        <pre class="language-css"><code class="code">font-variant: small-caps;</code class="code"></pre>
 
+        <h2>Font-Weight
+        </h2>
+        <!-- code class="code" BOX  -->
+        <pre class="language-css"><code class="code">font-weight: bold;</code class="code"></pre>
 
-                <h2>Font-Variant</h2>
-                <!-- code class="code" BOX  -->
-                <pre class="language-css"><code class="code">font-variant: small-caps;</code class="code"></pre>
+        <h2>Font-Size</h2>
+        <!-- code class="code" BOX  -->
+        <pre class="language-css"><code class="code">font-size: larger;</code class="code"></pre>
 
-                <h2>Font-Weight
-                </h2>
-                <!-- code class="code" BOX  -->
-                <pre class="language-css"><code class="code">font-weight: bold;</code class="code"></pre>
-
-                <h2>Font-Size</h2>
-                <!-- code class="code" BOX  -->
-                <pre class="language-css"><code class="code">font-size: larger;</code class="code"></pre>
-
-                <h2>Font Shorthand properties</h2>
-                <!-- code class="code" BOX  -->
-                <pre class="language-css"><code class="code">font: style variant weight size family;</code class="code"></pre>
-            </li>
+        <h2>Font Shorthand properties</h2>
+        <!-- code class="code" BOX  -->
+        <pre class="language-css"><code class="code">font: style variant weight size family;</code class="code"></pre>
+    </li>
 
 
 
 
-            
+    
 
 
 
@@ -108,19 +104,22 @@
 
 
 
-        </ol>
+</ol>
+
 
     </div>
 
 
     <footer>
-        <p class="text-center">Copyright @2022 | Designed With Prism.js <a href="#">| By-Prashant Chawla</a></p>
+        <p class="text-center">Copyright @2022 | Designed With Prism.js Library <a href="#">| By-Prashant Chawla</a></p>
 
     </footer>
 
+
     <!-- <script src="script.js" defer></script>          defer means that the script will be executed only after the whole document has been parsed -->
     <script src="script.js" ></script>
-
 </body>
 
 </html>
+
+
